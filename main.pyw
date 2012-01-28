@@ -44,24 +44,21 @@ def key(event):
     else:
         # f1 to f12, shift keys, caps lock, Home, End, Delete ...
 #        print( 'Special Key %r' % event.keysym )
+        global player
         if event.keysym == 'Up':
             if player.y > (35 + player.r):
-                global player
                 player.premakni(0,-35)
                 player.update()
         elif event.keysym == "Down":
             if player.y < (int(canvas.cget("height")) - 35):
-                global player
                 player.premakni(0,35)
                 player.update()
         elif event.keysym == "Left":
             if player.x > (35 + player.r):
-                global player
                 player.premakni(-35,0)
                 player.update()
         elif event.keysym == "Right":
             if player.x < (int(canvas.cget("width")) - 35):
-                global player
                 player.premakni(35,0)
                 player.update()
 
