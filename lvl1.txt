@@ -1,0 +1,20 @@
+####################
+#O               L #
+#       LV        L#
+#               L  #
+#     X            #
+#    LLX    VVVVVV #
+#    XX            #
+#                  #
+#XXXXXXXXXXXXXXXXXX#
+#          X       #
+#         X        #
+#        X         #
+#       X          #
+#XXXXXXXXXXXXXXXXXX#
+#VVVVVVVVLLLLLLLLLL#
+#                  #
+#    X             #
+#V##################
+#                 +#
+####################
